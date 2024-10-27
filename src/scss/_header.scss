@@ -1,7 +1,7 @@
 .header {
 }
 .header__inner {
-	padding: 51px 0 38px 0;
+	padding: 52px 0 38px 0;
 }
 .nav {
 	display: flex;
@@ -29,12 +29,38 @@
 	transition: all 0.2s ease-in-out;
 }
 .nav__contact-inner {
+	position: relative;
 	display: flex;
-	letter-spacing: -0.04em;
+	letter-spacing: -0em;
 	margin-left: 70px;
+	cursor: pointer;
 }
 .nav__phone {
 	font-size: 15px;
+}
+.nav__phone:hover {
+	color: $accent-color;
+}
+
+.nav__phone::before {
+	content: '';
+	position: absolute;
+	background-image: url('../img/phone.svg');
+	left: -36px;
+	top: 2px;
+	width: 27px;
+	height: 27px;
+	transition: all 0.2s ease-in-out;
+}
+.nav__phone:hover::before {
+	content: '';
+	position: absolute;
+	background-image: url('../img/phone_active.svg');
+	left: -36px;
+	top: 2px;
+	width: 27px;
+	height: 27px;
+	transition: all 0.2s ease-in-out;
 }
 .cart {
 	padding-left: 68px;
