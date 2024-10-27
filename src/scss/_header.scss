@@ -1,5 +1,3 @@
-.header {
-}
 .header__inner {
 	padding: 52px 0 38px 0;
 }
@@ -10,14 +8,11 @@
 }
 .logo {
 	margin-right: 10px;
-}
-.logo__img {
+	cursor: pointer;
 }
 .nav__list {
 	display: flex;
 	gap: 0 45px;
-}
-.nav__item {
 }
 .nav__link {
 	font-weight: 400;
@@ -26,6 +21,7 @@
 .nav__link:hover {
 	font-weight: 700;
 	color: $accent-color;
+	letter-spacing: 0em;
 	transition: all 0.2s ease-in-out;
 }
 .nav__contact-inner {
@@ -40,8 +36,8 @@
 }
 .nav__phone:hover {
 	color: $accent-color;
+	transition: all 0.5s ease-in-out;
 }
-
 .nav__phone::before {
 	content: '';
 	position: absolute;
@@ -65,9 +61,8 @@
 .cart {
 	padding-left: 68px;
 }
-.cart__img {
-}
 
+// Burger menu
 .burger {
 	display: none;
 }
