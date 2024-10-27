@@ -6,8 +6,9 @@ body {
 	height: 100%;
 	font-family: $main-font, 'Open Sans';
 	font-weight: 400;
-	font-size: 16px;
-	line-height: 23px;
+	font-size: 17px;
+	line-height: 140%;
+	letter-spacing: 0.02em;
 }
 .wrapper {
 	overflow: hidden;
@@ -24,7 +25,7 @@ body {
 }
 .header {
 	position: sticky;
-	z-index: 10;
+	z-index: 1;
 }
 
 .footer {
