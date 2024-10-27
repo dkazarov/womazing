@@ -1,0 +1,56 @@
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 52px 0 38px 0;
+}
+.logo {
+	margin-right: 10px;
+	cursor: pointer;
+}
+.nav__list {
+	display: flex;
+	gap: 0 45px;
+}
+.nav__link {
+	font-weight: 500;
+	font-size: 15px;
+}
+.nav__link:hover {
+	color: $accent-color;
+	transition: all 0.2s ease-in-out;
+}
+.nav__contact-inner {
+	position: relative;
+	display: flex;
+	letter-spacing: -0em;
+	margin-left: 70px;
+	cursor: pointer;
+}
+.nav__phone {
+	font-size: 15px;
+}
+.nav__phone:hover {
+	color: $accent-color;
+	transition: all 0.5s ease-in-out;
+}
+.nav__phone::before {
+	content: '';
+	position: absolute;
+	background-image: url('../img/phone.svg');
+	left: -36px;
+	top: 2px;
+	width: 27px;
+	height: 27px;
+	transition: all 0.2s ease-in-out;
+}
+.nav__phone:hover::before {
+	content: '';
+	position: absolute;
+	background-image: url('../img/phone_active.svg');
+	left: -36px;
+	top: 2px;
+	width: 27px;
+	height: 27px;
+	transition: all 0.2s ease-in-out;
+}
