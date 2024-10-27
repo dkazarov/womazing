@@ -6,6 +6,9 @@
 }
 .hero__content {
 	padding-top: 150px;
+	width: 585px;
+	height: 100%;
+	overflow: hidden;
 }
 .hero__content-title {
 	font-weight: 500;
@@ -21,12 +24,12 @@
 	text-align: right;
 	margin-bottom: 52px;
 	max-width: 385px;
-  	line-height: 140%;
+	line-height: 140%;
 }
 .hero__link-inner {
 	position: relative;
 	text-align: right;
-	margin-right: 194px;
+	margin-right: 196px;
 }
 .hero__content-link {
 	display: inline-block;
