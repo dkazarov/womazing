@@ -23,6 +23,11 @@
 	font-weight: 400;
 	font-size: 15px;
 }
+.nav__link:hover {
+	font-weight: 700;
+	color: $accent-color;
+	transition: all 0.2s ease-in-out;
+}
 .nav__contact-inner {
 	display: flex;
 	letter-spacing: -0.04em;
