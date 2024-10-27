@@ -15,13 +15,11 @@
 	gap: 0 45px;
 }
 .nav__link {
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 15px;
 }
 .nav__link:hover {
-	font-weight: 700;
 	color: $accent-color;
-	letter-spacing: 0em;
 	transition: all 0.2s ease-in-out;
 }
 .nav__contact-inner {
