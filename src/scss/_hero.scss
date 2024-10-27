@@ -1,14 +1,14 @@
-.hero {
-}
 .hero__inner {
 	display: flex;
 	justify-content: space-between;
 }
 .hero__content {
+	position: relative;
 	padding-top: 150px;
 	width: 585px;
 	height: 100%;
 	overflow: hidden;
+	margin-right: 115px;
 }
 .hero__content-title {
 	font-weight: 500;
@@ -59,14 +59,29 @@
 	transition: all 0.2s ease-in-out;
 }
 .hero__images {
-}
-.hero__img-top {
+	max-width: 410px;
+	max-height: 650px;
+	overflow: hidden;
+	background-size: cover;
 }
 .person--main {
+	position: relative;
+	display: inline-block;
+	max-height: 650px;
 }
 .person--top {
-	display: none;
+	position: absolute;
+	top: 242px;
+	right: 291px;
+	width: 200px;
+	height: 200px;
+	z-index: 100;
 }
 .person--bottom {
-	display: none;
+	position: absolute;
+	top: 507px;
+	right: 746px;
+	width: 190px;
+	height: 320px;
+	z-index: 100;
 }
