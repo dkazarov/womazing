@@ -1,7 +1,23 @@
 <header class="header">
   <div class="header__inner">
 
-    <h2 class="logo">Logo</h2>
+    <nav class="nav">
+      <a class="logo">
+        <img class="logo__img" src="./img/womazing-logo.svg" alt="womazing logo image">
+      </a>
+      <ul class="nav__list">
+        <li class="nav__item"><a class="nav__link" href="#">Главная</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Магазин</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">О бренде</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+      </ul>
+      <div class="nav__contact-inner">
+        <a class="nav__phone" href="tel:+0(000)000000"></a>+38(044) 823-54-12</a>
+        <a class="cart" href="#">
+          <img class="cart__img" src="./img/cart.svg" alt="cart image">
+        </a>
+      </div>
+    </nav>
     @include('../html-components/burger.html')
   </div>
 </header>
