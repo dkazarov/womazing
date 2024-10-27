@@ -1,0 +1,47 @@
+.hero {
+}
+.hero__inner {
+	display: flex;
+	justify-content: space-between;
+}
+.hero__content {
+	padding-top: 145px;
+}
+.hero__content-title {
+	font-weight: 500;
+	line-height: 110%;
+	font-size: 55px;
+	max-width: 580px;
+	margin-bottom: 45px;
+}
+.hero__content-text {
+	font-weight: 400;
+	font-size: 20px;
+	text-align: right;
+	margin-bottom: 52px;
+	max-width: 385px;
+}
+.hero__link-inner {
+	text-align: right;
+	margin-right: 200px;
+}
+.hero__content-link {
+	display: inline-block;
+	padding: 22px 50px;
+	max-width: 250px;
+	background-color: $accent-color;
+	color: $light-text-color;
+	cursor: pointer;
+}
+.hero__images {
+}
+.hero__img-top {
+}
+.person--main {
+}
+.person--top {
+	display: none;
+}
+.person--bottom {
+	display: none;
+}
