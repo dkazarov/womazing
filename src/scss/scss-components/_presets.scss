@@ -8,8 +8,16 @@
 }
 
 // Link to
-.btn__link {
+.btn-link--transparent {
 	color: $accent-color;
 	padding: 22px 50px;
 	border: 1px solid $accent-color;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.btn-link--transparent:hover {
+	background-color: $accent-color;
+	color: $light-text-color;
+	transition: all 0.2s ease-in-out;
 }

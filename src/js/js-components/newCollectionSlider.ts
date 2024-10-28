@@ -5,8 +5,12 @@ const newCollectionSlider = () => {
 	new Swiper('.new-coll__slider', {
 		// configure Swiper to use modules
 		modules: [Navigation, Autoplay],
-		
+
 		loop: true,
+
+		spaceBetween: 30,
+
+		slidesPerView: 3,
 
 		autoplay: {
 			delay: 5000,
