@@ -3,7 +3,6 @@
 	justify-content: space-between;
 }
 .hero__content {
-	position: relative;
 	padding-top: 150px;
 	width: 585px;
 	height: 100%;
@@ -19,6 +18,7 @@
 	letter-spacing: 0.021em;
 }
 .hero__content-text {
+	position: relative;
 	font-weight: 400;
 	font-size: 20px;
 	text-align: right;
@@ -84,4 +84,17 @@
 	width: 190px;
 	height: 320px;
 	z-index: 100;
+}
+
+// Pagination Swiper
+.swiper-pagination {
+	text-align: left;
+	left: 665px !important;
+	bottom: 155px !important;
+}
+.swiper-pagination-bullet {
+	width: 32px !important;
+	height: 4px !important;
+	background: #000 !important;
+	border-radius: 0 !important;
 }
