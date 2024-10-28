@@ -10,28 +10,23 @@
 	font-size: 40px;
 	line-height: 110%;
 	margin-bottom: 92px;
+	letter-spacing: 0.021em;
 }
 .new-coll__slider {
-	margin-bottom: 100px;
-}
-.swiper-wrapper {
-}
-.swiper-slide {
-	width: 100%;
-}
-.new-coll__slide {
+	margin-bottom: 60px;
 }
 .card {
 	position: relative;
 }
 .card__img {
-	margin-bottom: 30px;
+	margin-bottom: 28px;
 	max-height: 598px;
 }
 .card__title {
 	text-align: center;
 	font-weight: 500;
 	font-size: 20px;
+	margin-bottom: 6px;
 }
 .card__price span {
 	text-align: center;
