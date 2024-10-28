@@ -7,3 +7,5 @@ burgerClick();
 heroTextSlider();
 heroImgSlider();
 newCollectionSlider();
+
+

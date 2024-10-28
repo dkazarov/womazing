@@ -1,26 +1,17 @@
-import Swiper from 'swiper';
-import { Navigation, Autoplay } from 'swiper/modules';
+import Splide from '@splidejs/splide';
 
 const newCollectionSlider = () => {
-	new Swiper('.new-coll__slider', {
-		// configure Swiper to use modules
-		modules: [Navigation, Autoplay],
-
-		loop: true,
-
-		spaceBetween: 30,
-
-		slidesPerView: 3,
-
-		autoplay: {
-			delay: 5000,
-		},
-
-		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
-		},
+	const splide = new Splide('.splide', {
+		type: 'loop',
+		perPage: 3,
+		rewind: true,
+		gap: 30,
+		autoplay: true,
+		interval: 5000,
+		pagination: false,
 	});
+
+	splide.mount();
 };
 
 export default newCollectionSlider;
