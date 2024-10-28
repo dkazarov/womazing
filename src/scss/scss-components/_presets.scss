@@ -6,3 +6,10 @@
 	transform: translateY(-2px);
 	transition: all 0.2s ease-in-out;
 }
+
+// Link to
+.btn__link {
+	color: $accent-color;
+	padding: 22px 50px;
+	border: 1px solid $accent-color;
+}
