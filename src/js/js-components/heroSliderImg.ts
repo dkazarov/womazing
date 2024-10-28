@@ -1,13 +1,13 @@
 import Swiper from 'swiper';
-import { Navigation, Autoplay, Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 
 const heroImgSlider = () => {
 	new Swiper('.hero__images', {
 		// configure Swiper to use modules
-		modules: [Navigation, Autoplay, Pagination],
+		modules: [Autoplay, Pagination],
 
 		autoplay: {
-			delay: 5000,
+			delay: 4500,
 		},
 
 		pagination: {
