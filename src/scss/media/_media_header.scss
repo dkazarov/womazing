@@ -1,5 +1,40 @@
+@media (max-width: 900px) {
+	.header__inner {
+		justify-content: space-around;
+	}
+	.logo {
+		margin-right: 20px;
+	}
+	.action__phone {
+		display: none;
+	}
+	.cart {
+		margin-left: 0;
+	}
+}
 @media (max-width: 768px) {
+	.header__inner {
+		justify-content: space-between;
+		position: relative;
+		height: 80px;
+	}
+	.logo {
+		margin: 0 auto;
+	}
+	.action {
+		margin: 0;
+	}
+	.nav {
+		position: absolute;
+		display: none;
+	}
 	.burger {
 		display: block;
+	}
+}
+
+@media (max-width: 470px) {
+	.logo__img {
+		width: 90%;
 	}
 }
