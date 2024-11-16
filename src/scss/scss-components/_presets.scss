@@ -1,0 +1,9 @@
+.overlay {
+	opacity: 1;
+	transition: all 0.2s ease-in-out;
+	background: rgba(110, 156, 159, 0.95);
+}
+
+.stop-scroll {
+	overflow: hidden;
+}

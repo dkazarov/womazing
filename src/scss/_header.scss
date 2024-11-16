@@ -1,6 +1,16 @@
 .header {
+	&::before {
+		content: '';
+		position: absolute;
+		left: 0;
+		height: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 0;
+	}
 }
 .header__inner {
+	position: relative;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -9,15 +19,9 @@
 .logo {
 	cursor: pointer;
 }
-.logo__img {
-}
-.nav {
-}
 .nav__list {
 	display: flex;
 	gap: 0 45px;
-}
-.nav__item {
 }
 .nav__link {
 	font-weight: 400;
@@ -69,6 +73,9 @@
 		transform: translateY(-2px);
 		transition: all 0.2s ease-in-out;
 	}
+}
+.cart.overlay {
+	opacity: 0;
 }
 
 .burger {
