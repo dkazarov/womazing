@@ -1,12 +1,71 @@
 .header {
-	&__inner {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		padding: 0 20px;
-		height: 100px;
-		width: 100%;
-		background-color: $header-color;
+}
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 130px;
+}
+.logo {
+	cursor: pointer;
+}
+.logo__img {
+}
+.nav {
+}
+.nav__list {
+	display: flex;
+	gap: 0 45px;
+}
+.nav__item {
+}
+.nav__link {
+	font-weight: 500;
+	font-size: 15px;
+
+	&:hover {
+		color: $action-color;
+		transition: all 0.2s ease-in-out;
+	}
+}
+.action {
+	position: relative;
+	display: flex;
+}
+.action__phone {
+	&::before {
+		content: '';
+		position: absolute;
+		left: -33px;
+		top: 0;
+		width: 27px;
+		height: 27px;
+		background-image: url('../assets/phone.svg');
+	}
+	&:hover::before {
+		content: '';
+		position: absolute;
+		left: -33px;
+		top: 0;
+		width: 27px;
+		height: 27px;
+		background-image: url('../assets/phone_active.svg');
+		transition: all 0.2s ease-in-out;
+	}
+
+	&:hover {
+		color: $action-color;
+		transition: all 0.2s ease-in-out;
+	}
+}
+.cart {
+	margin-left: 67px;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+
+	&:hover {
+		transform: translateY(-2px);
+		transition: all 0.2s ease-in-out;
 	}
 }
 
