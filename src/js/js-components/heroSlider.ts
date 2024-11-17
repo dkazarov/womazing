@@ -12,7 +12,7 @@ export const leftHeroSlider = () => {
 		// },
 
 		pagination: {
-			el: '.swiper-pagination',
+			el: '.hero-pagination',
 			type: 'bullets',
 			clickable: true,
 		},
