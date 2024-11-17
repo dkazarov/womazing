@@ -1,16 +1,8 @@
 import { burgerOpen, burgerClose } from './js-components/burger';
+import { leftHeroSlider, rightHeroSlider } from './js-components/heroSlider';
 
 burgerOpen();
 burgerClose();
 
-import Swiper from 'swiper';
-import { Navigation, Pagination } from 'swiper/modules';
-
-const swiper = new Swiper('.swiper', {
-	modules: [Navigation, Pagination],
-
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
-	},
-});
+leftHeroSlider();
+rightHeroSlider();
