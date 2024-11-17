@@ -2,14 +2,14 @@ import Swiper from 'swiper';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 export const leftHeroSlider = () => {
-	new Swiper('.hero-left__slider', {
+	new Swiper('.hero-slider__left', {
 		modules: [Pagination, Autoplay],
 
 		loop: true,
 
-		autoplay: {
-			delay: 5000,
-		},
+		// autoplay: {
+		// 	delay: 5000,
+		// },
 
 		pagination: {
 			el: '.swiper-pagination',
@@ -19,13 +19,13 @@ export const leftHeroSlider = () => {
 	});
 };
 export const rightHeroSlider = () => {
-	new Swiper('.swiper', {
+	new Swiper('.hero-slider__right', {
 		modules: [Autoplay],
 
 		loop: true,
 
-		autoplay: {
-			delay: 5000,
-		},
+		// autoplay: {
+		// 	delay: 5000,
+		// },
 	});
 };
