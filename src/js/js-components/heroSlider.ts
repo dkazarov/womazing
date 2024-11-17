@@ -1,18 +1,31 @@
 import Swiper from 'swiper';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 export const leftHeroSlider = () => {
 	new Swiper('.hero-left__slider', {
-		modules: [Pagination],
+		modules: [Pagination, Autoplay],
+
+		loop: true,
+
+		autoplay: {
+			delay: 5000,
+		},
+
+		pagination: {
+			el: '.swiper-pagination',
+			type: 'bullets',
+			clickable: true,
+		},
 	});
 };
 export const rightHeroSlider = () => {
 	new Swiper('.swiper', {
-		modules: [Navigation, Pagination],
+		modules: [Autoplay],
 
-		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
+		loop: true,
+
+		autoplay: {
+			delay: 5000,
 		},
 	});
 };
