@@ -13,6 +13,9 @@
 	}
 }
 @media (max-width: 768px) {
+	.main {
+		padding-top: 80px;
+	}
 	.header__inner {
 		justify-content: space-between;
 		position: relative;
@@ -26,12 +29,13 @@
 	}
 	.nav {
 		position: fixed;
-		top: 0;
+		top: -100%;
 		left: 0;
 		width: 100%;
 		height: 100%;
 		padding-top: 100px;
 		opacity: 0;
+		overflow: auto;
 	}
 	.nav__list {
 		display: block;
@@ -46,6 +50,7 @@
 		margin-bottom: 20%;
 	}
 	.nav__link {
+		font-weight: 500;
 		font-size: 33px;
 		&:hover {
 			color: $white-text-color;
